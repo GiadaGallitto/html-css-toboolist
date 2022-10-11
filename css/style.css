@@ -9,21 +9,21 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header#main-header {
+.main-header {
     height: 5rem;
 }
 
-header#main-header, .container{
+.main-header, .container{
     background-color: white;
 }
 
-header#main-header img{
+.main-header img{
     height: 4em;
     padding-left: 1em;
     padding-top: 0.5em;
 }
 
-header#main-header h1{
+.main-header h1{
     font-size: 3rem;
     display: inline-block;
     vertical-align:text-bottom;
@@ -40,7 +40,7 @@ main{
     margin-bottom: 5px;   
 }
 
-article#first-block{
+#first-block{
     height: 5em;
     padding: 1.5em 3em;
 }
@@ -52,19 +52,19 @@ article#first-block{
     font-weight: bold;
 }
 
-#task-button{
+.input-bar button:first-child{
     background-color: #47adf1;
     color: white;
     border-color: #49aef1;
 }
 
-#section-button{
+.input-bar button:last-child{
     background-color: white;
     color: #c6ccd1;
     border-color: #c6ccd1;
 }
 
-article#second-block{
+#second-block{
     height: 60em;
     padding: 5em;
 }
@@ -81,6 +81,10 @@ section h2{
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 0.5em;
+}
+
+ul{
+    list-style-type: none;
 }
 
 section p{
