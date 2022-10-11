@@ -65,7 +65,7 @@ article#first-block{
 }
 
 article#second-block{
-    height: 90em;
+    height: 60em;
     padding: 5em;
 }
 
@@ -80,6 +80,7 @@ section{
 section h2{
     font-size: 2em;
     font-weight: bold;
+    margin-bottom: 0.5em;
 }
 
 section p{
@@ -128,4 +129,12 @@ p.recruiting-tag{
 
 p.mobile-tag{
     background-color: #f29e33;
+}
+
+p.website-tag{
+    background-color: #d863a1;
+}
+
+p.sales-tag{
+    background-color: #b0c926;
 }
