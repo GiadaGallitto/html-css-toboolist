@@ -66,5 +66,66 @@ article#first-block{
 
 article#second-block{
     height: 90em;
+    padding: 5em;
+}
+
+h2::before{
+    content: "\25BC";
+}
+
+section{
+    margin-bottom: 2em;
+}
+
+section h2{
+    font-size: 2em;
     font-weight: bold;
+}
+
+section p{
+    font-size: 1.5em;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.symbol{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    padding-left: 0.25em;
+    border-radius: 100%;
+}
+
+.check-green{
+    color: #65c0a9;
+    border: 1px solid #65c0a9;
+}
+
+.cross-red{
+    color: #eb5851;
+    border: 1px solid #eb5851;
+}
+
+.tags{
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+    border-radius: 18px;
+    padding: 0.7em 1em;
+}
+
+p.editorial-tag{
+    background-color: #45abea;
+}
+
+p.goals-tag{
+    background-color: #9c72e4;
+}
+
+p.recruiting-tag{
+    background-color: #64c0a9;
+}
+
+p.mobile-tag{
+    background-color: #f29e33;
 }
