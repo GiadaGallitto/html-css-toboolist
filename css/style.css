@@ -5,7 +5,9 @@
 }
 
 body{
-    background-color: whitesmoke;
+    background-image: url(../img/wallpaper-notes.jpeg);
+    background-position: 5% 5%;
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -37,7 +39,8 @@ main{
 
 .container{ 
     border-radius: 1px;
-    margin-bottom: 5px;   
+    margin-bottom: 5px; 
+    background-color: rgba(250, 250, 250, 0.5);
 }
 
 #first-block{
@@ -50,6 +53,7 @@ main{
     border-radius: 10%;
     padding: 0.6em 0.9em;
     font-weight: bold;
+    margin-left: 1em;
 }
 
 .input-bar button:first-child{
@@ -60,8 +64,16 @@ main{
 
 .input-bar button:last-child{
     background-color: white;
-    color: #c6ccd1;
-    border-color: #c6ccd1;
+    color: #969aa0;
+    border-color: #969aa0;
+}
+
+#task-button:hover{
+    box-shadow: 0.5px 0.5px 2.5px 4px #4194cc;
+}
+
+#section-button:hover{
+    box-shadow: 0.5px 0.5px 2.5px 4px #7d7f8b;
 }
 
 #second-block{
@@ -101,9 +113,17 @@ section p{
     border-radius: 100%;
 }
 
+li.green-task:hover{
+    color: #2a7a36;
+}
+
+li.red-task:hover{
+    color: #eb5851;
+}
+
 .check-green{
-    color: #65c0a9;
-    border: 1px solid #65c0a9;
+    color: #2a7a36;
+    border: 1px solid #2a7a36;
 }
 
 .cross-red{
